@@ -1,4 +1,24 @@
 .clock {
-    height: 300px;
-    width: 300px;
+    height: 90vw;
+    width: 90vw;
+}
+
+.clock .number {
+    font-size: 1.8rem;
+}
+
+.clock .hand.seconds {
+    width: 2px;
+    height: 33%
+}
+
+.clock .hand.minutes {
+    width: 5px;
+    height: 29%;
+    background-color: #000;
+}
+
+.clock .hand.hours {
+    width: 7px;
+    height: 22%;
 }
